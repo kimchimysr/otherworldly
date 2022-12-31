@@ -1,0 +1,4 @@
+2021-08-09T04:21:51+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wp_bookstore1\wp-admin\includes\class-wp-filesystem-direct.php on line 260
+
+2021-08-09T09:33:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wp_bookstore1\wp-includes\Requests\Transport\cURL.php on line 463
+

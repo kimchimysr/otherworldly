@@ -1,0 +1,21 @@
+2021-08-07T06:10:14+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wp_bookstore1\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-08-07T06:11:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wp_bookstore1\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-08-07T07:18:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wp_bookstore1\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-08-07T13:59:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wp_bookstore1\wp-content\plugins\woocommerce\includes\class-wc-autoloader.php on line 53
+
+2021-08-07T14:00:18+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wp_bookstore1\wp-content\plugins\woocommerce\includes\wccom-site\rest-api\class-wc-rest-wccom-site-installer-errors.php on line 16
+
+2021-08-07T14:33:06+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\wp_bookstore1\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php:126
+Stack trace:
+#0 C:\xampp\htdocs\wp_bookstore1\wp-includes\class-wp-hook.php(292): OE_Menu_Icons_Picker::_save(16, 141, Array)
+#1 C:\xampp\htdocs\wp_bookstore1\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp_bookstore1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp_bookstore1\wp-includes\nav-menu.php(597): do_action('wp_update_nav_m...', 16, 141, Array)
+#4 C:\xampp\htdocs\wp_bookstore1\wp-includes\nav-menu.php(1121): wp_update_nav_menu_item(16, 141, Array)
+#5 C:\xampp\htdocs\wp_bookstore1\wp-includes\class-wp-hook.php(292): _wp_auto_add_pages_to_menu('publish', 'draft', Object(WP_Post))
+#6 C:\xampp\htdocs\wp_bookstore1\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wp_bookstore1\wp-includes\plugin.php(484): WP_Hook->do_acti in C:\xampp\htdocs\wp_bookstore1\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php on line 126
+
